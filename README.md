@@ -54,8 +54,7 @@ Start the MongoDB server:
 mongod
 Start the Express server:
 
-bash
-Copy code
+
 cd server
 npm start
 Start the React client:
@@ -66,8 +65,8 @@ npm start
 The React application should automatically open in your browser at http://localhost:3000.
 
 Project Structure
-bash
-Copy code
+
+```
 mern-crud-app/
 ├── client/       # React frontend
 │   ├── public/
@@ -84,12 +83,16 @@ mern-crud-app/
 │   ├── server.js
 │   └── package.json
 └── README.md
+
+
 API Endpoints
 Create a record: POST /api/records
 Read all records: GET /api/records
 Read a single record: GET /api/records/:id
 Update a record: PUT /api/records/:id
 Delete a record: DELETE /api/records/:id
+
+
 Usage
 Creating a Record
 Open the application in your browser.
@@ -114,8 +117,7 @@ MongoDB
 Express
 React
 Node.js
-css
-Copy code
+
 
 This `README.md` file provides a clear and concise guide to setting up, configuring, and running a MERN stack application with CRUD functionality. Feel free to customize it further to suit your project's specific details and requirements.
 
